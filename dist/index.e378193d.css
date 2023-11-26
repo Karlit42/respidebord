@@ -1,0 +1,311 @@
+body {
+  height: 100%;
+  background-color: #000000e5;
+  margin-top: 0%;
+  font-family: Poppins, sans-serif;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: #dffaff;
+  text-transform: uppercase;
+  background-color: #000305ab;
+  padding: 1rem;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    padding: .4rem;
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  h1 {
+    padding: .3rem;
+    font-size: 13px;
+  }
+}
+
+p {
+  text-align: center;
+  color: #dffaff;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  p {
+    letter-spacing: 0;
+    padding: .4rem;
+    font-size: .9rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  p {
+    padding: .2rem;
+    font-size: .7rem;
+  }
+}
+
+#text-content {
+  text-align: center;
+  color: #dffaff;
+  padding: .2rem;
+}
+
+#text-content:before {
+  content: "Inspire";
+  font-size: 1.2rem;
+  animation-name: textChange;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes textChange {
+  0% {
+    color: #0ff0;
+    content: "inspireeez...";
+  }
+
+  25% {
+    color: #dffaff;
+  }
+
+  50% {
+    color: #0ff0;
+    content: "inspireeez...";
+  }
+
+  51% {
+    content: "expireeez...";
+    color: #0ff0;
+  }
+
+  75% {
+    color: #dffaff;
+  }
+
+  100% {
+    content: "expireeez...";
+    color: #0ff0;
+  }
+}
+
+.background {
+  background-image: url("spectacle1.94c90759.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 12%;
+  margin-right: 12%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+  .background {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .background {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.background--2 {
+  background-image: url("spectacle2.08d42cea.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 12%;
+  margin-right: 12%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+  .background--2 {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .background--2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.background--3 {
+  background-image: url("spectacle3.3772506e.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 12%;
+  margin-right: 12%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+  .background--3 {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .background--3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.background--4 {
+  background-image: url("spectacle4.cade48e0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 12%;
+  margin-right: 12%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+  .background--4 {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .background--4 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.main {
+  width: 95%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.breath {
+  width: 20rem;
+  height: 7rem;
+  background-image: url("jour.9c77c1aa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px solid #004280;
+  border-radius: 200px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  animation: 10s ease-in-out infinite breath;
+  display: block;
+}
+
+@media only screen and (max-width: 640px) {
+  .breath {
+    width: 12rem;
+  }
+}
+
+@keyframes breath {
+  0% {
+    height: 4rem;
+  }
+
+  50% {
+    height: 35vh;
+  }
+
+  100% {
+    height: 4rem;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  width: 9rem;
+  color: #dffaff;
+  background-color: #1f91ef;
+  border: 5px solid #004280;
+  border-radius: 40px;
+  margin: 0 auto;
+  padding: .9rem;
+  font-size: 1rem;
+  display: block;
+}
+
+button:hover {
+  border: 5px solid #53aefe;
+}
+
+form {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: auto;
+  display: flex;
+}
+
+@media only screen and (max-width: 640px) {
+  form {
+    margin-top: 3rem;
+  }
+}
+
+label {
+  color: #dffaff;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+@media only screen and (max-width: 640px) {
+  label {
+    margin: 0;
+    font-size: .7rem;
+  }
+}
+
+select {
+  color: #dffaff;
+  text-align: center;
+  background-color: #004280;
+  border-radius: 15px;
+  margin-top: 1rem;
+  padding: .5rem 1rem;
+}
+
+@media only screen and (max-width: 640px) {
+  select {
+    margin-top: .3rem;
+    padding: .2rem .5rem;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+  margin: .5rem;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=index.e378193d.css.map */
